@@ -60,17 +60,22 @@
     */
     .btn.black{
         background-color: #1A237E;
+        color: white;
     }
+    
     .btn.green{
         background-color: #4CAF50;
+        color: white;
     }
     .btn.sky{
 
         background-color: #00BCD4;
+        color: white
     }
 
     .btn.purple{
         background-color: #673AB7;
+        color: white;
     }
 
 
