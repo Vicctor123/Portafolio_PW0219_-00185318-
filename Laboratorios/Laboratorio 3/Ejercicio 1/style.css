@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background: black;
+    overflow: hidden;
+}
+h1{
+    color: whitesmoke;
+
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(8,5em);
+    grid-template-rows: repeat(8,5em);
+
+    grid-auto-flow: dense;
+
+    grid-gap: 5px;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+
+
+}
+
+.wide1{
+    grid-column: span 1;
+
+
+}
+.wide2{
+    grid-column: span 2;
+
+
+}
+.wide3{
+    grid-column: span 3;
+
+
+}
+.wide4{
+    grid-column: span 4;
+
+
+}
+.wide5{
+    grid-column: span 5;
+
+
+}
+.wide6{
+    grid-column: span 6;
+
+
+}
+
+.wide7{
+    grid-column: span 7;
+
+
+}
+.wide8{
+    grid-column: span 8;
+
+
+}
+
+
+
+.tall1{
+    grid-row: span 1;   
+}
+
+.tall2{
+    grid-row: span 2;   
+}
+
+
+.tall3{
+    grid-row: span 3;   
+}
+
+.tall4{
+    grid-row: span 4;   
+}
+
+
+.tall5{
+    grid-row: span 5;   
+}
+
+.tall6{
+    grid-row: span 6;   
+}
+
+
+.tall7{
+    grid-row: span 7;   
+}
+
+.tall8{
+    grid-row: span 8;   
+}
+
+
+
+
+
+
+
+
+
+
+
