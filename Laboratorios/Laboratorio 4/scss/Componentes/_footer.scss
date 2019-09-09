@@ -1,0 +1,17 @@
+
+footer {
+    @include set-dimensions(auto,auto );
+
+    display: flex; 
+    justify-content: space-between; 
+
+
+    >span {
+        padding: 0.5em; 
+        color: whitesmoke; 
+        font-size: 0.8em; 
+        text-decoration: underline; 
+        background: black ; 
+        border-radius: 0.5em; 
+    }
+}
